@@ -1,0 +1,62 @@
+/* Configs: */
+body {
+    --color-primary: #4296E3;
+    --color-primary-dark: #3477b3;
+    --color-error: #ca5858;
+    --color-success: #45E973;
+    --color-white: #fff;
+    --color-grey-dark: #bebebe;
+    --color-grey: #eceaea;
+    --border-radius: 15px;
+    --font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-white);
+    margin: 0;
+    padding: 0;
+}
+
+/* Imports: */
+@import '/shared/fonts.css';
+
+:root {
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+/* Logo Css: */
+.Logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.LogoText {
+    font-weight: 500;
+    margin: 0;
+}
+
+.LogoText:last-child {
+    font-weight: 1000;
+    margin: 0;
+}
+
+.LogoTexts {
+    display: flex;
+}
+
+.new {
+    background-color: var(--color-primary);
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.newText {
+    color: var(--color-white);
+    margin: 0;
+}

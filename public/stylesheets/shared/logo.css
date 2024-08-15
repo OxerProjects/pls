@@ -1,0 +1,36 @@
+.Logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.LogoText {
+    font-weight: 500;
+    margin: 0;
+}
+
+.LogoText:last-child {
+    font-weight: 1000;
+    margin: 0;
+}
+
+.LogoTexts {
+    display: flex;
+}
+
+.new {
+    background-color: var(--color-primary);
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.newText {
+    color: var(--color-white);
+    margin: 0;
+}
